@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <h1>my marks</h1>
+<label for="">Santhosh</label>
+<input type="text" id="one">
+<input type="text" id="two">
+<br>
+<button onclick="once()"> addition </button>
+<br>
+<button onclick="twice()">substract</button>
+<br>
+<button onclick="thrice()">multiplication</button>
+<br>
+<button onclick="four()">division</button>
+
+
+<script>
+    
+    function once(){
+        var x= Number (document.getElementById("one").value)
+        var y=Number (document.getElementById("two").value)
+        add=(x+y)
+        alert(add)
+    
+}
+function twice(){
+        var x= Number (document.getElementById("one").value)
+        var y=Number (document.getElementById("two").value)
+        add=(x-y)
+        alert(add)
+}
+function thrice(){
+        var x= Number (document.getElementById("one").value)
+        var y=Number (document.getElementById("two").value)
+        add=(x*y)
+        alert(add)
+}
+function four(){
+        var x= Number (document.getElementById("one").value)
+        var y=Number (document.getElementById("two").value)
+        add=(x/y)
+        alert(add)
+}
+
+</script>
+
+</body>
+
+
+</html>
